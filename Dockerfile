@@ -1,11 +1,12 @@
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 MAINTAINER ARM <doug.anson@arm.com>
 EXPOSE 22/tcp
 EXPOSE 8234/tcp
 EXPOSE 28520/tcp
 EXPOSE 17362/tcp
 RUN apt-get update
-RUN apt-get -y install default-jre vim locales openssh-server supervisor dnsutils unzip zip python-pip
+RUN apt-get -y install tzdata
+RUN apt-get -y install default-jre vim locales openssh-server supervisor dnsutils unzip zip ntp python-pip
 RUN pip install --upgrade pip
 RUN pip install awscli
 RUN useradd arm -m -s /bin/bash 
