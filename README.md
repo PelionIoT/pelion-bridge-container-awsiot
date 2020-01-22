@@ -1,4 +1,6 @@
 arm PELION Device Shadow bridge for Amazon AWS IoT 
+
+01/22/2020: updated bridge - reverted broken jetty websocket dependency updates
  
 01/17/2020: updated bridge - internal dependencies updated
 
