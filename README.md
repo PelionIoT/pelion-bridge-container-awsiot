@@ -1,5 +1,7 @@
 arm PELION Device Shadow bridge for Amazon AWS IoT 
 
+02/29/2020: updated bridge - updated for treasuredata support. minor marshalling fixes
+
 02/25/2020: updated bridge - updated internal dependencies. bridge updates (Watson)
 
 02/24/2020: updated bridge - final fixes for draft mode mqtt formatting
